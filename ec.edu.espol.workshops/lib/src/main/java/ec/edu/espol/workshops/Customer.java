@@ -1,6 +1,6 @@
 package ec.edu.espol.workshops;
 
-public class CarInsurance {
+public class Customer {
 	private int age;
 	private char sex;
 	private boolean isMarried, isValidLicense;

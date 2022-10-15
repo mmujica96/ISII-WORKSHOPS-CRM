@@ -2,39 +2,34 @@
  * 
  */
 package ec.edu.espol.workshops;
-import ec.edu.espol.workshops.CarInsurance;
 
 /**
  * @author Claudio Olvera
  *
  */
-public class main {
-
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		/**
-		CarInsurance car = new CarInsurance();
-		car.setAge(27);
-		car.setMarried(true);
-		car.setValidLicense(true);
-		car.setSex("M".charAt(0));
-		
-		System.out.println(getPrima(car));
-		*/
+public class CarInsurance {
+	private Customer customer;
+	private int basePremium = 500; //The base premium is $500, it must be applied to every insurance;
+	
+	public void setCustomer(Customer customer) {
+		this.customer = customer;
+	}
+	
+	public Customer getCustomer() {
+		return this.customer;
 	}
 	
 	/**
 	 * @author Claudio Olvera
+	 * @author klucin
 	 */
-	public static int getPrima(CarInsurance car) {
-		int prima = 500; //The base premium is $500, it must be applied to every insurance;
-		int age = car.getAge();
-		char sex = car.getSex();
-		boolean married = car.isMarried();
+	public int getPremium() {
+		int premium = this.basePremium;
+		int age = customer.getAge();
+		char sex = customer.getSex();
+		boolean married = customer.isMarried();
 		
-		if(car.isValidLicense() != true || age > 80) {
+		if(customer.isValidLicense() != true || age > 80) {
 			//si es mayor de 80 no puede ser asegurado
 			// si no tiene licencia no es asegurado
 			return -1;
@@ -42,17 +37,15 @@ public class main {
 		
 		//- If the customer is male, not married, and younger than 25, 
 		//  then it is needed to add $1500 to the base premium;
-		
+		if(sex == 'M') {
+			if(!married && age < 25)
+			premium = 1500 + this.basePremium;
+			
 		//- If the customer is female, or if the customer is married, 
 		//  then it is needed to subtract $200 from the base premium;
-		if(sex == "M".charAt(0)) {
-			//es hombre
-			prima += 1500;
-			if(married) {
-				prima -= 200;
-			}
-		}else if(sex == "F".charAt(0)) {
-			prima -= 200;
+		}else if(sex == 'F') {
+			if(married)
+			premium = this.basePremium - 200;
 		}else {
 			return -1; // solo puede ser hombre o mujer
 		}
@@ -60,10 +53,10 @@ public class main {
 		//If the customer is 45 or older, but younger than 65, 
 		//then it is needed to subtract $100 from the base premium.
 		if(age >= 45 && age < 65) {
-			prima -= 100;
+			premium = this.basePremium - 100;
 		}
 
-		return prima;
+		return premium;
 	}
 	
 }
