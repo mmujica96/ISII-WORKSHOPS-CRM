@@ -29,7 +29,7 @@ public class CarInsurance {
 		char sex = customer.getSex();
 		boolean married = customer.isMarried();
 		
-		if(customer.isValidLicense() != true || age > 80) {
+		if( customer.isValidLicense() !=true|| age > 80) {
 			//si es mayor de 80 no puede ser asegurado
 			// si no tiene licencia no es asegurado
 			return -1;
