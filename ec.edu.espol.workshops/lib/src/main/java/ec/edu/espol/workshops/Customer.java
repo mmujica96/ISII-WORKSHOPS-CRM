@@ -3,7 +3,8 @@ package ec.edu.espol.workshops;
 public class Customer {
 	private int age;
 	private char sex;
-	private boolean isMarried, isValidLicense;
+	private boolean isMarried;
+	private boolean isValidLicense;
 	public int getAge() {
 		return age;
 	}
