@@ -8,8 +8,10 @@ package ec.edu.espol.workshops;
  *
  */
 public class CarInsurance {
+	//customer instance
 	private Customer customer;
-	private int basePremium = 500; //The base premium is $500, it must be applied to every insurance;
+	//The base premium is $500, it must be applied to every insurance;
+	final int basePremium = 500; 
 	
 	public void setCustomer(Customer customer) {
 		this.customer = customer;
@@ -29,7 +31,7 @@ public class CarInsurance {
 		char sex = customer.getSex();
 		boolean married = customer.isMarried();
 		
-		if( customer.isValidLicense() !=true|| age > 80) {
+		if( age > 80) {
 			//si es mayor de 80 no puede ser asegurado
 			// si no tiene licencia no es asegurado
 			return -1;
