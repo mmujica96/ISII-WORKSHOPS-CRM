@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.7.3" sequence="1" timestamp="1666412712859" analysisTimestamp="1666412712189" release="">
+  <Project projectName="lib">
+    <Jar>C:\Users\Stefa\git\ISII-WORKSHOPS-CRM\ec.edu.espol.workshops\lib\bin\test</Jar>
+    <Jar>C:\Users\Stefa\git\ISII-WORKSHOPS-CRM\ec.edu.espol.workshops\lib\bin\main</Jar>
+    <AuxClasspathEntry>C:\Users\Stefa\git\ISII-WORKSHOPS-CRM\ec.edu.espol.workshops\lib\bin\main</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Stefa\git\ISII-WORKSHOPS-CRM\ec.edu.espol.workshops\lib\bin\test</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Stefa\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-math3\3.6.1\e4ba98f1d4b3c80ec46392f25e094a6a2e58fcbf\commons-math3-3.6.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Stefa\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\30.1.1-jre\87e0fd1df874ea3cbe577702fe6f17068b790fd8\guava-30.1.1-jre.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Stefa\.gradle\caches\modules-2\files-2.1\com.google.guava\failureaccess\1.0.1\1dcf1de382a0bf95a3d8b0849546c88bac1292c9\failureaccess-1.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Stefa\.gradle\caches\modules-2\files-2.1\com.google.guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\b421526c5f297295adef1c886e5246c39d4ac629\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Stefa\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Stefa\.gradle\caches\modules-2\files-2.1\org.checkerframework\checker-qual\3.8.0\6b83e4a33220272c3a08991498ba9dc09519f190\checker-qual-3.8.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Stefa\.gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.5.1\562d366678b89ce5d6b6b82c1a073880341e3fba\error_prone_annotations-2.5.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Stefa\.gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\1.3\ba035118bc8bac37d7eff77700720999acd9986d\j2objc-annotations-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Stefa\.gradle\caches\modules-2\files-2.1\org.junit.jupiter\junit-jupiter-params\5.7.2\685f832f8c54dd40100f646d61aca88ed9545421\junit-jupiter-params-5.7.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Stefa\.gradle\caches\modules-2\files-2.1\org.junit.jupiter\junit-jupiter-api\5.7.2\f4b4079732a9c537983324cfa4e46655f21d2c56\junit-jupiter-api-5.7.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Stefa\.gradle\caches\modules-2\files-2.1\org.junit.platform\junit-platform-commons\1.7.2\34adfea6c13fc4a996cf38cdad80800ce850d198\junit-platform-commons-1.7.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Stefa\.gradle\caches\modules-2\files-2.1\org.junit.jupiter\junit-jupiter\5.7.2\62faa742964a9d8dab8fdb4a0eab7b01441c171f\junit-jupiter-5.7.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Stefa\.gradle\caches\modules-2\files-2.1\org.apiguardian\apiguardian-api\1.1.0\fc9dff4bb36d627bdc553de77e1f17efd790876c\apiguardian-api-1.1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Stefa\.gradle\caches\modules-2\files-2.1\org.opentest4j\opentest4j\1.2.0\28c11eb91f9b6d8e200631d46e20a7f407f2a046\opentest4j-1.2.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Stefa\.gradle\caches\modules-2\files-2.1\org.junit.jupiter\junit-jupiter-engine\5.7.2\9415680a889f00b8205a094c5c487bc69dc7077d\junit-jupiter-engine-5.7.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Stefa\.gradle\caches\modules-2\files-2.1\org.junit.platform\junit-platform-engine\1.7.2\2573770b46b8a199ed5f6b0f96fb99e468bfe891\junit-platform-engine-1.7.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Stefa\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20221004-1257\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\Stefa\git\ISII-WORKSHOPS-CRM\ec.edu.espol.workshops\lib\src\test\java</SrcDir>
+    <SrcDir>C:\Users\Stefa\git\ISII-WORKSHOPS-CRM\ec.edu.espol.workshops\lib\src\main\java</SrcDir>
+  </Project>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" first="1">
+    <Class classname="ec.edu.espol.workshops.CarInsurance">
+      <SourceLine classname="ec.edu.espol.workshops.CarInsurance" sourcefile="CarInsurance.java" sourcepath="ec/edu/espol/workshops/CarInsurance.java"/>
+    </Class>
+    <Method classname="ec.edu.espol.workshops.CarInsurance" name="getCustomer" signature="()Lec/edu/espol/workshops/Customer;" isStatic="false">
+      <SourceLine classname="ec.edu.espol.workshops.CarInsurance" start="17" end="17" startBytecode="0" endBytecode="46" sourcefile="CarInsurance.java" sourcepath="ec/edu/espol/workshops/CarInsurance.java"/>
+    </Method>
+    <Field classname="ec.edu.espol.workshops.CarInsurance" name="customer" signature="Lec/edu/espol/workshops/Customer;" isStatic="false">
+      <SourceLine classname="ec.edu.espol.workshops.CarInsurance" sourcefile="CarInsurance.java" sourcepath="ec/edu/espol/workshops/CarInsurance.java"/>
+    </Field>
+    <SourceLine classname="ec.edu.espol.workshops.CarInsurance" start="17" end="17" startBytecode="4" endBytecode="4" sourcefile="CarInsurance.java" sourcepath="ec/edu/espol/workshops/CarInsurance.java"/>
+    <SourceLine classname="ec.edu.espol.workshops.CarInsurance" start="17" end="17" startBytecode="4" endBytecode="4" sourcefile="CarInsurance.java" sourcepath="ec/edu/espol/workshops/CarInsurance.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" first="1">
+    <Class classname="ec.edu.espol.workshops.CarInsurance">
+      <SourceLine classname="ec.edu.espol.workshops.CarInsurance" sourcefile="CarInsurance.java" sourcepath="ec/edu/espol/workshops/CarInsurance.java"/>
+    </Class>
+    <Method classname="ec.edu.espol.workshops.CarInsurance" name="setCustomer" signature="(Lec/edu/espol/workshops/Customer;)V" isStatic="false">
+      <SourceLine classname="ec.edu.espol.workshops.CarInsurance" start="15" end="16" startBytecode="0" endBytecode="61" sourcefile="CarInsurance.java" sourcepath="ec/edu/espol/workshops/CarInsurance.java"/>
+    </Method>
+    <Field classname="ec.edu.espol.workshops.CarInsurance" name="customer" signature="Lec/edu/espol/workshops/Customer;" isStatic="false">
+      <SourceLine classname="ec.edu.espol.workshops.CarInsurance" sourcefile="CarInsurance.java" sourcepath="ec/edu/espol/workshops/CarInsurance.java"/>
+    </Field>
+    <LocalVariable name="customer" register="1" pc="2" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="ec.edu.espol.workshops.CarInsurance" start="15" end="15" startBytecode="2" endBytecode="2" sourcefile="CarInsurance.java" sourcepath="ec/edu/espol/workshops/CarInsurance.java"/>
+    <SourceLine classname="ec.edu.espol.workshops.CarInsurance" start="15" end="15" startBytecode="2" endBytecode="2" sourcefile="CarInsurance.java" sourcepath="ec/edu/espol/workshops/CarInsurance.java"/>
+  </BugInstance>
+  <BugInstance type="SS_SHOULD_BE_STATIC" priority="2" rank="18" abbrev="SS" category="PERFORMANCE" first="1">
+    <Class classname="ec.edu.espol.workshops.CarInsurance">
+      <SourceLine classname="ec.edu.espol.workshops.CarInsurance" sourcefile="CarInsurance.java" sourcepath="ec/edu/espol/workshops/CarInsurance.java"/>
+    </Class>
+    <Field classname="ec.edu.espol.workshops.CarInsurance" name="basePremium" signature="I" isStatic="false">
+      <SourceLine classname="ec.edu.espol.workshops.CarInsurance" sourcefile="CarInsurance.java" sourcepath="ec/edu/espol/workshops/CarInsurance.java"/>
+    </Field>
+    <SourceLine classname="ec.edu.espol.workshops.CarInsurance" start="13" end="13" startBytecode="8" endBytecode="8" sourcefile="CarInsurance.java" sourcepath="ec/edu/espol/workshops/CarInsurance.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 21 Oct 2022 23:03:30 -0500" total_classes="3" referenced_classes="16" total_bugs="3" total_size="101" num_packages="1" java_version="17.0.4.1" vm_version="17.0.4.1+1" cpu_seconds="7.45" clock_seconds="340.34" peak_mbytes="795.59" alloc_mbytes="2048.00" gc_seconds="0.00" priority_2="3">
+    <PackageStats package="ec.edu.espol.workshops" total_bugs="3" total_types="3" total_size="101" priority_2="3">
+      <ClassStats class="ec.edu.espol.workshops.CarInsurance" sourceFile="CarInsurance.java" interface="false" size="29" bugs="3" priority_2="3"/>
+      <ClassStats class="ec.edu.espol.workshops.Customer" sourceFile="Customer.java" interface="false" size="27" bugs="0"/>
+      <ClassStats class="ec.edu.espol.workshops.Test" sourceFile="Test.java" interface="false" size="45" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="212" invocations="361" avgMicrosecondsPerInvocation="589" maxMicrosecondsPerInvocation="8092" standardDeviationMicrosecondsPerInvocation="1045"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="122" invocations="2" avgMicrosecondsPerInvocation="61419" maxMicrosecondsPerInvocation="108603" standardDeviationMicrosecondsPerInvocation="47184"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="83" invocations="362" avgMicrosecondsPerInvocation="229" maxMicrosecondsPerInvocation="771" standardDeviationMicrosecondsPerInvocation="125"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="26" invocations="16" avgMicrosecondsPerInvocation="1633" maxMicrosecondsPerInvocation="10226" standardDeviationMicrosecondsPerInvocation="2551"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="18" invocations="62" avgMicrosecondsPerInvocation="291" maxMicrosecondsPerInvocation="1010" standardDeviationMicrosecondsPerInvocation="242"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="17" invocations="329" avgMicrosecondsPerInvocation="52" maxMicrosecondsPerInvocation="772" standardDeviationMicrosecondsPerInvocation="85"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="17" invocations="16" avgMicrosecondsPerInvocation="1065" maxMicrosecondsPerInvocation="7730" standardDeviationMicrosecondsPerInvocation="1869"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="11" invocations="16" avgMicrosecondsPerInvocation="719" maxMicrosecondsPerInvocation="4848" standardDeviationMicrosecondsPerInvocation="1179"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1666412712859" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>
