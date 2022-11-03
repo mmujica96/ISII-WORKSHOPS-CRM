@@ -76,6 +76,22 @@ public class Test{
 		customer.setValidLicense(false);		
 		car.setCustomer(customer);
 		System.out.println(car.getPremium());
+		
+
+		//Case 3 - age less than 45
+		customer.setMarried(true);
+		customer.setAge(15);
+		car.setCustomer(customer);
+		System.out.println(car.getPremium());
+		customer.setMarried(true);
+		
+	
+		//Case 4 - age over 85
+		customer.setAge(101);
+		car.setCustomer(customer);
+		System.out.println(car.getPremium());
+
+		
 	}
 
 }
