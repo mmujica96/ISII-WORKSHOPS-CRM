@@ -55,6 +55,10 @@ public class CarInsurance {
 		if(age >= 45 && age < 65) {
 			premium = this.basePremium - 100;
 		}
+		
+		if(age <=0) {
+			return -1;
+		}
 
 		return premium;
 	}
