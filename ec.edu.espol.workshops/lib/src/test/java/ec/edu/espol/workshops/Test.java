@@ -90,6 +90,11 @@ public class Test{
 		customer.setAge(101);
 		car.setCustomer(customer);
 		System.out.println(car.getPremium());
+		
+		//Case 5 - age less than 1
+		customer.setAge(-1);
+		car.setCustomer(customer);
+		System.out.println(car.getPremium());
 
 			
 		/* 11/11/2022 
