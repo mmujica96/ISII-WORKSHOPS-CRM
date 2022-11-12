@@ -28,6 +28,13 @@ dependencies {
 
     // This dependency is used internally, and not exposed to consumers on their own compile classpath.
     implementation 'com.google.guava:guava:30.1.1-jre'
+    
+    testImplementation 'junit:junit:4.12'
+    // testImplementation 'io.cucumber:cucumber-java:6.8.1'
+    // testImplementation 'io.cucumber:cucumber-junit:6.8.1'
+    testImplementation 'io.cucumber:cucumber-java:7.5.0'
+    testImplementation 'io.cucumber:cucumber-junit:7.5.0'
+    
 }
 
 tasks.named('test') {
@@ -49,4 +56,5 @@ task cucumber() {
 			args = ['--plugin', 'pretty','--monochrome','--plugin', 'html:build/reports/cucumber-report.html','--glue', 'ec/edu/espol/workshops', 'src/test/resources/ec/edu/espol/workshops/']
 		}
 	}
+
 }
