@@ -8,7 +8,7 @@ package ec.edu.espol.workshops;
  */
 public class CarInsurance {
 	private Customer customer;
-	//The base premium is $600, it must be applied to every insurance;
+	//The base premium is now $600, it must be applied to every insurance;
 	final int basePremium=600; 
 	public void setCustomer(Customer customer) {
 		this.customer=customer;
