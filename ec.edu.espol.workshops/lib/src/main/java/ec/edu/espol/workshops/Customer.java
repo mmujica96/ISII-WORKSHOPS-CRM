@@ -29,7 +29,6 @@ public class Customer{
 	public void setValidLicense(boolean isValidLicense){
 		this.isValidLicense = isValidLicense;
 	}
-	
 }
 
 
