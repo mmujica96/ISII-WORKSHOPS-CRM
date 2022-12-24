@@ -24,7 +24,7 @@ public class StatementCoverageTest extends TestCase{
 	
 	public void test1() {
 		int res = test(30, 'M', true, false);
-		assertEquals(res, -1);
+		assertEquals(-1, res);
 	}
 	
 	public void test2() {
@@ -36,14 +36,14 @@ public class StatementCoverageTest extends TestCase{
 		customer.setSex('M');
 		customer.setMarried(false);
 		customer.setValidLicense(true);
-		assertEquals(testC1.getPremium(), 2100);
+		assertEquals(2100, testC1.getPremium());
 	}
 	
 	public void test3() {
 		Customer customer = new Customer();
 		CarInsurance testC1 = new CarInsurance();
 		testC1.setCustomer(customer);
-		assertEquals(testC1.getPremium(), -1);
+		assertEquals(-1, testC1.getPremium());
 	}
 	
 	public void test4() {
@@ -56,7 +56,7 @@ public class StatementCoverageTest extends TestCase{
 		customer.setMarried(true);
 		customer.setValidLicense(true);
 		
-		assertEquals(testC1.getPremium(), 400);
+		assertEquals(400, testC1.getPremium());
 	}
 	
 	public void test5() {
@@ -69,7 +69,7 @@ public class StatementCoverageTest extends TestCase{
 		customer.setMarried(true);
 		customer.setValidLicense(true);
 		
-		assertEquals(testC1.getPremium(), 500);
+		assertEquals(500, testC1.getPremium());
 	}
 	
 	public void test6() {
@@ -80,6 +80,6 @@ public class StatementCoverageTest extends TestCase{
 		customer.setSex('X');
 		customer.setValidLicense(true);
 		
-		assertEquals(testC1.getPremium(), -1);
+		assertEquals(-1, testC1.getPremium());
 	}
 }
