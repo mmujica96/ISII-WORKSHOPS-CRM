@@ -56,6 +56,14 @@ public class CarInsurance {
 			//9
 			premium = this.basePremium - 100;
 		}
+		
+		// New requeriment
+		if (married && age > 30 && age < 60) {
+			premium =this.basePremium -  50;
+		}
+		if (sex == 'F' && !married && age > 60) {
+			premium = this.basePremium -50;
+		}
 
 		return premium;
 		//prueba xxx
